@@ -55,12 +55,11 @@ function renderDestinationThumbnail(destination) {
 }
 
 function renderDestinationDetails(destination) {
-    //TODO
     const image = 'img/placeholder.jpeg';
     return `
         <div class="container-fluid">
-			<div class="row mb-2" >
-			<h2 style="background-color: black; color: white">${destination.destinationName}</h2>
+			<div class="row mb-2">
+			    <h2 style="background-color: black; color: white">${destination.destinationName}</h2>
                 <div class="col-12 col-md-6">
                     <img src="${destination.imageUrl ? destination.imageUrl : image}" class="card-img-top object-fit-cover" />
                 </div>
@@ -74,7 +73,7 @@ function renderDestinationDetails(destination) {
                 <p class="mb-0">beste seizoen: ${destination.bestTravelSeason}</p>
                 <p>prijs: van ${destination.priceRangeEur}</p>
                 <div style="border: solid lightgray 1px; border-radius: 4px">
-                    <p>activiteiten in ${destination.destinationName}</p>
+                    <p>activiteiten in ${destination.destinationName}:</p>
                     <ol>
                         <li>${destination.popularActivities}</li>
                     </ol>
@@ -87,6 +86,8 @@ function renderDestinationDetails(destination) {
 searchInput.addEventListener("input", () => renderData(data));
 
 priceInput.addEventListener("input", () => renderData(data));
+
+moreButton.addEventListener("click", () => renderData(data))
 
 //- toon details destination (pas hiervoor aan: functie renderDestinationDetails)
 //- toon destination thumbnails (pas hiervoor aan: functies renderData en renderDestinationThumbnail)
