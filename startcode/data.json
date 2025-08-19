@@ -1,0 +1,265 @@
+[
+  {
+    "id": 1,
+    "destinationName": "Santorini",
+    "country": "Griekenland",
+    "city": "Oia",
+    "description": "Een pittoresk Cycladisch dorpje dat op kliffen boven de Egeïsche Zee ligt, bekend om zijn adembenemende zonsondergangen en blauwgedomde kerken.",
+    "averageTemperatureC": 23,
+    "bestTravelSeason": "Laat voorjaar tot vroeg herfst",
+    "priceRangeEur": "1200 - 2500",
+    "popularActivities": [
+      "Zonsondergang bekijken",
+      "Wijnproeverijen",
+      "Boottochten rond de Caldera"
+    ],
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?q=80&w=1170"
+  },
+  {
+    "id": 2,
+    "destinationName": "Kyoto",
+    "country": "Japan",
+    "city": "Kyoto",
+    "description": "Een oude stad die bekend staat om zijn prachtige tempels, traditionele houten huizen en mooie kersenbloesemseizoen.",
+    "averageTemperatureC": 17,
+    "bestTravelSeason": "Lente (maart tot mei) en herfst (september tot november)",
+    "priceRangeEur": "1500 - 3000",
+    "popularActivities": [
+      "Tempelbezoeken",
+      "Theeceremonies",
+      "Kersenbloesem bekijken",
+      "Bezoek aan bamboebos Arashiyama",
+      "Traditionele geisha-wandelingen"
+    ]
+  },
+  {
+    "id": 3,
+    "destinationName": "Machu Picchu",
+    "country": "Peru",
+    "city": "Aguas Calientes",
+    "description": "De iconische oude Incastad hoog in het Andesgebergte, bekend om zijn archeologische betekenis en prachtige panoramische uitzichten.",
+    "averageTemperatureC": 16,
+    "bestTravelSeason": "Mei tot september",
+    "priceRangeEur": "1800 - 3500",
+    "popularActivities": [
+      "Wandelen over de Inca Trail",
+      "Geleide archeologische tours",
+      "Fotografie"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1"
+  },
+  {
+    "id": 4,
+    "destinationName": "Paris",
+    "country": "Frankrijk",
+    "city": "Parijs",
+    "description": "De romantische hoofdstad, bekend om iconische bezienswaardigheden zoals de Eiffeltoren, wereldberoemde musea en charmante cafés.",
+    "averageTemperatureC": 15,
+    "bestTravelSeason": "April tot juni en september tot november",
+    "priceRangeEur": "1300 - 2700",
+    "popularActivities": [
+      "Museumbezoeken",
+      "Rondvaarten op de Seine",
+      "Gastronomisch dineren"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+  },
+  {
+    "id": 5,
+    "destinationName": "Cape Town",
+    "country": "Zuid-Afrika",
+    "city": "Kaapstad",
+    "description": "Een bruisende stad bekend om zijn prachtige kustlijn, de Tafelberg en rijke culturele diversiteit.",
+    "averageTemperatureC": 18,
+    "bestTravelSeason": "November tot maart",
+    "priceRangeEur": "1000 - 2200",
+    "popularActivities": [
+      "Wandelen op de Tafelberg",
+      "Wijngaardtours",
+      "Stranden",
+      "Bezoek aan Robbeneiland"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1606799955515-85468ee78c26"
+  },
+  {
+    "id": 6,
+    "destinationName": "Bali",
+    "country": "Indonesië",
+    "city": "Ubud",
+    "description": "Een tropisch eiland bekend om zijn weelderige rijstvelden, spirituele tempels en ontspannen sfeer.",
+    "averageTemperatureC": 27,
+    "bestTravelSeason": "April tot oktober",
+    "priceRangeEur": "800 - 1800",
+    "popularActivities": [
+      "Yoga retreats",
+      "Bezoek aan tempels",
+      "Surfen"
+    ],
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1661878915254-f3163e91d870"
+  },
+  {
+    "id": 7,
+    "destinationName": "Rome",
+    "country": "Italië",
+    "city": "Rome",
+    "description": "De eeuwige stad vol geschiedenis, met het Colosseum, de Trevifontein en heerlijke Italiaanse keuken.",
+    "averageTemperatureC": 20,
+    "bestTravelSeason": "April tot juni en september tot oktober",
+    "priceRangeEur": "1200 - 2500",
+    "popularActivities": [
+      "Historische tours",
+      "Kunst en musea bezoeken",
+      "Culinair genieten"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1529260830199-42c24126f198"
+  },
+  {
+    "id": 8,
+    "destinationName": "Sydney",
+    "country": "Australië",
+    "city": "Sydney",
+    "description": "Een moderne stad met iconische bezienswaardigheden zoals het Opera House en prachtige stranden.",
+    "averageTemperatureC": 18,
+    "bestTravelSeason": "September tot november en maart tot mei",
+    "priceRangeEur": "1800 - 3500",
+    "popularActivities": [
+      "Strandbezoek",
+      "Stadswandelingen",
+      "Boottochten in de haven",
+      "Bezoek aan de Sydney Tower Eye",
+      "Wandelen in de Royal Botanic Garden",
+      "Surfen bij Bondi Beach"
+    ],
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1697730198238-48ee2f2fe1b7"
+  },
+  {
+    "id": 9,
+    "destinationName": "New York",
+    "country": "Verenigde Staten",
+    "city": "New York City",
+    "description": "De stad die nooit slaapt, vol wolkenkrabbers, theaters en diverse culturen.",
+    "averageTemperatureC": 13,
+    "bestTravelSeason": "April tot juni en september tot november",
+    "priceRangeEur": "2000 - 4000",
+    "popularActivities": [
+      "Broadway shows",
+      "Musea bezoeken",
+      "Wandelen in Central Park"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee"
+  },
+  {
+    "id": 10,
+    "destinationName": "Istanbul",
+    "country": "Turkije",
+    "city": "Istanbul",
+    "description": "Een stad die Europa en Azië verbindt, bekend om zijn rijke geschiedenis, bazaars en prachtige moskeeën.",
+    "averageTemperatureC": 16,
+    "bestTravelSeason": "April tot juni en september tot november",
+    "priceRangeEur": "900 - 2000",
+    "popularActivities": [
+      "Bezoek aan bazaars",
+      "Historische moskeeën bezoeken",
+      "Boottochten over de Bosporus"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1652102627171-0cc3c2c35916"
+  },
+  {
+    "id": 11,
+    "destinationName": "Buenos Aires",
+    "country": "Argentinië",
+    "city": "Buenos Aires",
+    "description": "De levendige hoofdstad van Argentinië, beroemd om tango, kleurrijke wijken en heerlijke steakrestaurants.",
+    "averageTemperatureC": 18,
+    "bestTravelSeason": "September tot november en maart tot mei",
+    "priceRangeEur": "1100 - 2300",
+    "popularActivities": [
+      "Tango shows",
+      "Stadswandelingen",
+      "Bezoek aan parken en musea"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1586354822120-bf910e563cdf"
+  },
+  {
+    "id": 12,
+    "destinationName": "Vancouver",
+    "country": "Canada",
+    "city": "Vancouver",
+    "description": "Een prachtige stad omgeven door natuur met bergen, bossen en oceaan dichtbij.",
+    "averageTemperatureC": 12,
+    "bestTravelSeason": "Mei tot september",
+    "priceRangeEur": "1600 - 3200",
+    "popularActivities": [
+      "Wandelen in de natuur",
+      "Fietstochten",
+      "Bezoek aan stranden en parken"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1559511260-66a654ae982a"
+  },
+  {
+    "id": 13,
+    "destinationName": "Petra",
+    "country": "Jordanië",
+    "city": "Wadi Musa",
+    "description": "Een eeuwenoude stad uitgehouwen in rotsen, een van de zeven wereldwonderen.",
+    "averageTemperatureC": 20,
+    "bestTravelSeason": "Maart tot mei en september tot november",
+    "priceRangeEur": "1400 - 2800",
+    "popularActivities": [
+      "Bezoek aan archeologische sites",
+      "Wandelen door de Siq",
+      "Fotografie"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1580834341580-8c17a3a630ca"
+  },
+  {
+    "id": 14,
+    "destinationName": "Amsterdam",
+    "country": "Nederland",
+    "city": "Amsterdam",
+    "description": "De hoofdstad van Nederland, bekend om zijn grachten, musea en bruisende cultuur.",
+    "averageTemperatureC": 11,
+    "bestTravelSeason": "April tot juni en september tot november",
+    "priceRangeEur": "1100 - 2500",
+    "popularActivities": [
+      "Fietstochten",
+      "Musea bezoeken",
+      "Boottochten over de grachten"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1524047934617-cb782c24e5f3"
+  },
+  {
+    "id": 15,
+    "destinationName": "Reykjavik",
+    "country": "IJsland",
+    "city": "Reykjavik",
+    "description": "De noordelijkste hoofdstad ter wereld, bekend om geisers, watervallen en het noorderlicht.",
+    "averageTemperatureC": 5,
+    "bestTravelSeason": "Juni tot augustus",
+    "priceRangeEur": "1700 - 3200",
+    "popularActivities": [
+      "Noorderlicht kijken",
+      "Bezoeken aan warmwaterbronnen",
+      "Wandelen in de natuur"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1606130503037-6a8ef67c9d2d"
+  },
+  {
+    "id": 16,
+    "destinationName": "Bangkok",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "description": "Een bruisende stad met tempels, markten en een levendig nachtleven.",
+    "averageTemperatureC": 29,
+    "bestTravelSeason": "November tot februari",
+    "priceRangeEur": "700 - 1500",
+    "popularActivities": [
+      "Bezoek aan tempels",
+      "Streetfood proeven",
+      "Boottochten over de kanalen"
+    ],
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1661963188068-1bac46e28727"
+  }
+]
+
+
