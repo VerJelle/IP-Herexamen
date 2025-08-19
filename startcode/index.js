@@ -18,6 +18,7 @@ function renderData(destinations) {
     console.log("renderData", destinations);
 
 
+
     detailsDiv.innerHTML = destinations
         .map(renderDestinationDetails)
         .join(' ')
@@ -71,11 +72,11 @@ function renderDestinationDetails(destination) {
              <div>
                 <p class="mb-0">gemiddelde temperatuur: ${destination.averageTemperatureC} °C</p>
                 <p class="mb-0">beste seizoen: ${destination.bestTravelSeason}</p>
-                <p>prijs: van ${destination.priceRangeEur}</p>
+                <p>prijs: van ${destination.priceRangeEur.replace('-', '€ tot ')}</p>
                 <div style="border: solid lightgray 1px; border-radius: 4px">
                     <p>activiteiten in ${destination.destinationName}:</p>
                     <ol>
-                        <li>${destination.popularActivities}</li>
+                        <li>${destination.popularActivities.join(`, `)}</li>
                     </ol>
                 </div>
              </div>
@@ -87,7 +88,7 @@ searchInput.addEventListener("input", () => renderData(data));
 
 priceInput.addEventListener("input", () => renderData(data));
 
-moreButton.addEventListener("click", () => renderData(data))
+thumbnailsDiv.addEventListener("click", () => renderData(data))
 
 //- toon details destination (pas hiervoor aan: functie renderDestinationDetails)
 //- toon destination thumbnails (pas hiervoor aan: functies renderData en renderDestinationThumbnail)
